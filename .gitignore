@@ -1,0 +1,40 @@
+# R specific
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Shiny deployment
+/rsconnect/
+www/
+
+# Large data files
+*.h5
+app_final.RData
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.~lock.*
+
+# Log files
+*.log
+
+# Environment variables
+.env
+.Renviron
+
+# Rendered reports
+*.html
+*.pdf
+*.docx
+
+# Cache directories
+*_cache/
+/cache/
